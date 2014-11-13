@@ -1,3 +1,6 @@
+#Implement a function which counts the frequency of the characters
+#occuring in a given string.
+
 def frequency(string):
 	d = dict()
 	for char in string:
