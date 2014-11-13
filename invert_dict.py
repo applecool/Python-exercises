@@ -1,10 +1,13 @@
+#Dictionary maps from letters to frequencies.
+#Implement a dictionary that maps from frequencies to letters.
+
 def frequency(string):
 	d = dict()
 	for char in string:
 		d[char] = 1 + d.get(char,0)
 	return d
 
-
+#inverts the dictionary 
 def invert_dict(d):
 	inverse = dict()
 	for key in d:
