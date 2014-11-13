@@ -1,3 +1,8 @@
+#Implement the keys method of dictionaries. 
+#Write a function which takes the output of the 
+#frequency function and prints the keys and their 
+#values in alphabetical order
+
 def frequency(string):
 	d = dict()
 	for char in string:
