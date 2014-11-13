@@ -17,7 +17,7 @@ line = words.readline()
 def key_value():
 	for line in words:
 		word = line.strip() 
-		output[word] = random.random() #assigning each word value to a random number key
+		output[word] = random.random() 
 
 	return output
 
